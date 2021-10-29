@@ -1,0 +1,12 @@
+Assalumualaikum sir, I am Abrar from EEE 4th year,. We have chosen 'License Plate Recognition' as our project title.Following is a short view of our work-
+""There are 3 code files.First one is template creation, which learns the letters and numbers, means this is the training code.
+Second one is plate detection, which detects the plate from the image.
+And the last one is letter detection, which detects the letter from the plate using the training experience.
+
+There are other two folders that hold the images.
+
+After keeping the three code files and the other two folders (that hold the images) in the same directory,
+if we run the 'plate detection' code file, the code will detect the letters and numbers written in the plate.""
+I am still working with the code .Once done,i will share for your reference. I am looking forward to your opinion for our project, and if needed what else can be added.
+And I am also interested to learn about machine learning and related things. I have almost finished Andrew Ng's course in coursera on machine learning. What else can I study next? I am looking forward to your reference.
+Abrar IslamID-160021017
