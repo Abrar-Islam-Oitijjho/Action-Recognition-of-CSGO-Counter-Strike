@@ -51,22 +51,15 @@ This work demonstrates a practical framework for gameplay analytics, player perf
 Data were collected as DEM formatted files, which are game files and only playable by the  CS: GO game
 
 #### Data acquisition
-<img src="assets/data_pre_processing.gif" width="300">
+<img src="assets/Screenshot_data_acq.jpg" width="300">
 
 #### Example input
 <img src="assets/Screenshot_ip.jpg" width="300">
 
-
-<img src="assets/k_ip.gif" width="360">
-<img src="assets/d_ip.gif" width="360">
-<img src="assets/s_ip.gif" width="360">
-<img src="assets/no_ip.gif" width="360">
-
-
 ## Method
 
 #### System model
-<img src="assets/workflow.gif" width="300">
+<img src="assets/Screenshot_system_model.jpg" width="300">
 
 ## Result
 
@@ -74,7 +67,7 @@ Data were collected as DEM formatted files, which are game files and only playab
 <img src="assets/performance.gif" width="300">
 
 ### Confusion Matrix
-<img src="assets/cnf_majorityvoting.jpg" width="300">
+<img src="assets/Screenshot_cm.jpg" width="300">
 
 ## Quick Start
 
