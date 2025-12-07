@@ -58,7 +58,42 @@ Data were collected as DEM formatted files, which are game files and only playab
 
 ## Method
 
-#### System model
+<details> <summary><strong>1. System Model</strong></summary>
+
+DEM files were collected from HLTV and converted into 1280×720, 30 FPS video clips.
+
+Each clip contained 2–5 seconds of a specific action.
+
+All clips were manually labeled into four classes: kill, death, smoke, no-action.
+
+The goal was to prepare clean, high-quality input data for downstream processing.
+
+</details>
+<details> <summary><strong>2. Data Acquisition and Preprocessing</strong></summary>
+
+Dataset was divided into train, test, and validation sets.
+
+Frames extracted from every clip.
+
+Each frame converted into an array and normalized.
+
+Multiple pre-trained CNN models generated feature vectors for each frame.
+
+Feature vectors were normalized again and reshaped into 1-D formats for model input.
+
+</details>
+<details> <summary><strong>3. Model Development</strong></summary>
+
+Five transfer learning models were used for feature extraction:
+VGG16, Xception, InceptionV3, Inception-ResNetV2, ResNet152V2.
+
+A custom deep neural network with five hidden layers was trained on extracted features.
+
+Majority voting combined predictions from all five approaches to improve reliability.
+
+</details>
+
+#### System model diagram
 <img src="assets/Screenshot_system_model.jpg" width="300">
 
 ## Result
@@ -108,7 +143,7 @@ Action-Recognition-of-CSGO-Counter-Strike/
 
 ## Associated Publication
 
-[Action Recognition using Transfer Learning and Majority Voting for CSGO](https://ieeexplore.ieee.org/abstract/document/9608407)
+For more information please visit: [Action Recognition using Transfer Learning and Majority Voting for CSGO](https://ieeexplore.ieee.org/abstract/document/9608407)
 
 ## Contributing
 
