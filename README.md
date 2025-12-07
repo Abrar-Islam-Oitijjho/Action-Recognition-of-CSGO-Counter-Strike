@@ -46,21 +46,35 @@ This work demonstrates a practical framework for gameplay analytics, player perf
 - 📊 **Data Analysis**: Provides tools for analyzing gameplay data and extracting meaningful insights.
 - 🤖 **Machine Learning**: Employs machine learning algorithms to train models for action recognition.
 
+## Data
+
+Data were collected as DEM formatted files, which are game files and only playable by the  CS: GO game
+
+#### Data acquisition
+<img src="assets/data_pre_processing.gif" width="300">
+
+#### Example input
+<img src="assets/Screenshot_ip.jpg" width="300">
+
+
+<img src="assets/k_ip.gif" width="360">
+<img src="assets/d_ip.gif" width="360">
+<img src="assets/s_ip.gif" width="360">
+<img src="assets/no_ip.gif" width="360">
+
+
 ## Method
 
-### Workflow Overview
-<img src="assets/workflow.gif" width="180">
-
-### Data Prepro-cessing
-<img src="assets/data_pre_processing.gif" width="180">
+#### System model
+<img src="assets/workflow.gif" width="300">
 
 ## Result
 
-### Performance Metrics
-<img src="assets/performance.gif" width="180">
+### Model performance
+<img src="assets/performance.gif" width="300">
 
 ### Confusion Matrix
-<img src="assets/confusion_matrix.gif" width="180">
+<img src="assets/cnf_majorityvoting.jpg" width="300">
 
 ## Quick Start
 
