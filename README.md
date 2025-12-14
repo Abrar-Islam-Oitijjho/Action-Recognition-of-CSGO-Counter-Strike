@@ -36,7 +36,7 @@ This project focuses on real-time action recognition in Counter Strike: Global O
 
 The pipeline is designed to classify actions frame by frame, support real-time inference, and generate structured outputs for downstream prediction models. It also includes an automated module for collecting and processing gameplay video, making it easier to scale datasets and measure action frequency across matches.
 
-This work demonstrates a practical framework for gameplay analytics, player performance assessment, and early-stage prediction of match dynamics using advanced computer vision techniques.
+This work demonstrates a practical framework for gameplay analytics, player performance assessment, and early-stage prediction of match dynamics using advanced computer vision techniques. This work has been published in IEEE Conference. The link to that can be found in the following section.
 
 ## Features
 
